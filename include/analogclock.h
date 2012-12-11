@@ -9,6 +9,7 @@ class AnalogClock : public QWidget
 
 public:
     AnalogClock(QWidget *parent = 0);
+    ~AnalogClock();
 
 protected:
     void paintEvent(QPaintEvent *event);
