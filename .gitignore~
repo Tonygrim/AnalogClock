@@ -1,7 +1,0 @@
-#Ignorar
-	build
-	.txt~
-	.user
-	.pro
-	.gitignore
-
