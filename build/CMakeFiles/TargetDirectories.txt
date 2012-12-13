@@ -1,1 +1,0 @@
-/home/fmicheld/workspace/QT/AnalogClock/build/CMakeFiles/AnalogClock.dir
