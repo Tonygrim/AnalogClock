@@ -1,7 +1,7 @@
 #include <QtGui>
 #include <QWidget>
 
-#include "include/analogclock.h"
+#include "analogclock.h"
 
 AnalogClock::AnalogClock(QWidget *parent)
     : QWidget(parent)

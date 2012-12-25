@@ -1,6 +1,6 @@
 #include <QApplication>
 
-#include "include/analogclock.h"
+#include "analogclock.h"
 
 int main(int argc, char *argv[])
 {

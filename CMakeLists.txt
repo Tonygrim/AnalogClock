@@ -8,6 +8,12 @@ cmake_minimum_required(VERSION 2.8)
 #do diretório
 PROJECT(AnalogClock)
 
+INCLUDE_DIRECTORIES(include)
+
+get_property(inc_dirs DIRECTORY PROPERTY INCLUDE_DIRECTORIES)
+message("-- inc_dirs = ${inc_dirs}")
+
+
 FIND_PACKAGE(Qt4 REQUIRED)
 
 #Arquivos fontes .cpp
@@ -19,8 +25,8 @@ SET(PRJ_SOURCES
 
 #Arquivos de cabeçalho .h que contenham a macro QObject
 SET(PRJ_HEADERS 
-# 	src/include
-	src/include/analogclock.h
+# 	include/
+	include/analogclock.h
 )
 
 #Arquivos de interface .ui
