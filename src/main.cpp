@@ -8,6 +8,6 @@ int main(int argc, char *argv[])
     AnalogClock clock;
 
     clock.show();
-
+// 	clock.setStyleSheet( "QWidget:clock{ background-color: rgb(0, 170, 255);}");
     return app.exec();
 }

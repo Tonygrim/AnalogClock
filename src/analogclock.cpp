@@ -1,4 +1,5 @@
 #include <QtGui>
+#include <QWidget>
 
 #include "include/analogclock.h"
 
@@ -9,6 +10,8 @@ AnalogClock::AnalogClock(QWidget *parent)
     connect(timer, SIGNAL(timeout()), this, SLOT(update()));
     timer->start(1000);
 
+	setStyleSheet("QWidget{ background-color : blue }");
+	
     setWindowTitle(tr("Analog Clock"));
     resize(200, 200);
 }
